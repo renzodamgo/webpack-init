@@ -1,7 +1,7 @@
 const HtmlWebpack = require('html-webpack-plugin');
 
 module.exports = {
-	mode: 'production',
+	mode: 'development',
 	output: {
 		clean: true
 	},
@@ -12,7 +12,7 @@ module.exports = {
 				loader: 'html-loader',
 				options: {
 					sources: false,
-					
+
 
 				}
 			}
